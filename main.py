@@ -17,9 +17,10 @@ if ans1 == "s":
     print("[Y]ou go look for other people.")
     print("You go [a]cross the river.")
     ans2 = input("Choice: ").lower().strip()
+    
     # Check their answer
     if ans2 == "y":
-        print("As you were walking, you stumbled upon a person! You had no idea who they were, until they explained their story and they were your best friend in another body!?")
+        print(f"As you were walking, you stumbled upon a person! You had no idea who they were, until they explained their story and they were your best friend in another body. You believe them right {name}?")
         print("")
         print("You and your best friend take separate [p]aths to explore.")
         print("You and your [b]est friend explore together.")
@@ -46,34 +47,34 @@ if ans1 == "s":
                     print("You decide to [c]onfront them.")
                     print("You [d]ecide to attack them.")
                     ans6 = input("Choice :   ").lower().strip()
+        
              
                     if ans6 == "c":
-                         print("You approach them with your hands in the air. You spoke asking “Is this just a game?” They stared. Suddenly you were stabbed from behind, the last words you heard were “You won”, everything went blank and then you woke up… just a game?")
-                         
-             
+                        print("You approach them with your hands in the air. You spoke asking “Is this just a game?” They stared. Suddenly you were stabbed from behind, the last words you heard were “You won, conrgats {name}”, everything went black and then you woke up… just a game?")
+                   
                     elif ans6 == "d":
-                         print("Before you realized it was too late, fists against guns? What were you thinking? You had gotten shot multiple times. So close yet so far. ‘Game over.’")
+                        print(f"Before you realized it was too late, fists against guns? What were you thinking? You had gotten shot multiple times. So close yet so far. ‘Game over {name}.’")
                     else:
-                         print("Not a option you fool... 'game' over.")
+                        print("Not a option... 'game' over.")
              
                 elif ans5 == "q":
                     print("Your attempt to leave had failed as they saw the movement in the bushes and immediately shot you both… “Game over” were the last words you heard.")
                 else:
-                    print("Not a option you fool... 'game' over.")
+                    print("Not a option... 'game' over.")
             elif ans4 == "t":
                 print("You heard footsteps and looked in that direction. When you looked back your best friend was gone, that's when you felt a stab. The knife going through your chest. You drop, dead. ‘Game over’…")
             else:
-                print("Not a option you fool... 'game' over.")
+                print("Not a option... 'game' over.")
         
         elif ans3 == "p":
             print("You took separate paths but just a few minutes later you heard a scream. You rushed to find your best friend's corpse being eaten by a tiger, and you were next. There you both laid at the end of the ‘game’…")
         else:
-            print("Not a option you fool... 'game' over.")
+            print("Not a option... 'game' over.")
     elif ans2 == "a":
         print("You decide to go across the river nearby the waterfall, you use the big rocks but then your foot slips! You fell down the waterfall, hit the rocks below hard… and had a fatal injury, dying from constant bleeding.  ")
     else:
-        print("Not a option you fool... 'game' over.")
+        print("Not a option... 'game' over.")
 elif ans1 == "g":
     print("You got up and slowly walked towards the water, suddenly a hippo emerged from the water, and you a fool went closer and was chopped, eaten to death.")
 else:
-    print("Not a option you fool... 'game' over.")
+    print("Not a option... 'game' over.")
